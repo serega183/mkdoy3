@@ -1,0 +1,299 @@
+
+
+
+.access {
+    font: 100% "Times New Roman", serif;
+    background: #ececec;
+    font-size: 17px;
+    color: #000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    left: 0px;
+    border-bottom: 3px solid #000;
+}
+
+.access a {
+    outline: none
+}
+
+.a-fontsize {
+    float: left;
+    padding-top: 12px;
+    margin-left: 30px;
+    /*! display: inline; */
+}
+
+.a-fontsize dt {
+    text-shadow: #fff 0 1px 0;
+}
+
+.a-fontsize dt, .a-fontsize dd {
+    float: left;
+}
+
+.a-fontsize a {
+    text-decoration: none;
+    height: 30px;
+    margin-left: 1px;
+    display: inline;
+    float: left;
+    background-image: url(/images/disign/versionSLV/fontsize.png);
+    position: relative;
+    top: -5px;
+}
+
+.a-fontsize-small {
+    width: 20px;
+     background-position: 1px -0px;
+}
+
+a.a-fontsize-small:hover, .fontsize-small a.a-fontsize-small {
+    background-position: 0 -31px;
+}
+
+.a-fontsize-normal {
+    width: 27px;
+    background-position: -20px 0;
+}
+
+a.a-fontsize-normal:hover, .fontsize-normal a.a-fontsize-normal {
+    background-position: -20px -31px;
+}
+
+.a-fontsize-big {
+    width: 27px;
+    background-position: -46px 0;
+}
+
+a.a-fontsize-big:hover, .fontsize-big a.a-fontsize-big {
+    background-position: -46px -31px;
+}
+
+/**/
+.a-letsp {
+    float: left;
+    padding-top: 12px;
+    margin-left: 30px;
+    display: inline;
+    /*! width: 400px; */
+}
+.a-letsp dt {
+    text-shadow: #fff 0 1px 0;
+    float: left;
+    margin-right: 0px;
+}
+
+.a-letsp dd {
+    float: left;
+}
+
+.a-letsp a {
+   
+    margin-left: 7px;
+display: block;
+    background-image: url(/images/disign/versionSLV/sprite_letsp.png);
+         background-size: 93px 67px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    width: 31px;
+height: 33px;
+    padding: 0px;
+}
+
+.a-letsp1 {
+ background-position: 0px 0px;
+}
+.a-letsp2 {
+ background-position: -31px 0px;
+}
+.a-letsp3 {
+ background-position: -62px 0px;
+}
+.a-letsp1:hover {
+    background-position: 0px -34px;
+}
+.a-letsp2:hover {
+    background-position: -31px  -34px;    
+}
+.a-letsp3:hover {
+    background-position: -62px  -34px;    
+}
+/**/
+.a-fontname {
+    float: left;
+    padding-top: 12px;
+    margin-left: 30px;
+    display: inline;
+    /*! width: 400px; */
+}
+.a-fontname dt {
+    text-shadow: #fff 0 1px 0;
+    float: left;
+    margin-right: 0px;
+}
+
+.a-fontname dd {
+    float: left;
+}
+
+.a-fontname a {
+   
+    margin-left: 7px;
+display: block;
+    background-image: url(/images/disign/versionSLV/sprite_fontname.png);
+         background-size: 62px 67px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    width: 31px;
+height: 33px;
+    padding: 0px;
+}
+
+.a-fontname1 {
+ background-position: 0px 0px;
+}
+.a-fontname2 {
+ background-position: 31px 0px;
+}
+.a-fontname1:hover {
+    background-position: 0 -34px;
+}
+.a-fontname2:hover {
+    background-position: 31px  -34px;    
+}
+
+/**/
+.a-colors {
+    float: left;
+    padding-top: 12px;
+    margin-left: 30px;
+    display: inline;
+    /*! width: 400px; */
+}
+
+.a-colors dt {
+    text-shadow: #fff 0 1px 0;
+    float: left;
+    margin-right: 0px;
+}
+
+.a-colors dd {
+    float: left;
+}
+
+.a-colors a {
+   
+    margin-left: 7px;
+display: block;
+    background-image: url(/images/disign/versionSLV/sprite_colors.png);
+         background-size: 130px 67px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    width: 26px;
+height: 33px;
+    padding: 0px;
+}
+
+.a-color1 {
+    background-position: 0px 0px;
+}
+
+.a-color2 {
+    background-position: -26px 0px;
+}
+
+.a-color3 {
+ background-position: -52px 0px;
+}
+
+.a-color4 {
+ background-position: -78px 0px;
+}
+
+.a-color5 {
+ background-position: -104px 0px;
+}
+
+.a-color1:hover{
+    background-position: 0 -34px;
+}
+
+.a-color2:hover{
+  background-position: -26px -34px; 
+}
+
+.a-color3:hover{
+   background-position: -52px -34px; 
+}
+
+.a-color4:hover{
+   background-position: -78px -34px; 
+}
+
+.a-color5:hover{
+   background-position: -104px -34px; 
+}
+
+.a-images {
+    float: left;
+    padding-top: 12px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.a-images dt {
+    text-shadow: #fff 0 1px 0;
+    float: left;
+
+}
+
+.a-images dd {
+    float: left;
+}
+
+.a-images a {
+    height: 26px;
+    margin-left: 10px;
+    display: inline;
+    float: left;
+    background-image: url(/images/disign/versionSLV/images.png);
+    position: relative;
+    top: -1px;
+    text-decoration: none;
+    width: 90px;
+    border-radius: 3px;
+}
+
+
+.a-imagesoff{
+    background-position: 0px 0px;
+}
+
+.a-imagesoff:hover{
+    background-position: 0px -27px;
+}
+
+.a-settings {
+    float: left;
+    margin-left: 40px;
+    /*! padding-top: 0px; */
+    padding-bottom: 0px;
+    text-shadow: #fff 0 1px 0;
+    /*! margin-left: 13px; */
+position: relative;
+    top: 14px;
+}
+.a-off:hover {
+    text-decoration: underline;
+}
+.a-off{
+    color: #000;
+    text-decoration: none;
+}
+
+

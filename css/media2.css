@@ -1,0 +1,70 @@
+@media screen and (max-width:900px) {
+}
+@media screen and (max-width:450px) {
+
+  body {
+    min-width : 100% !important;
+    margin: 0px;
+  }
+  #content {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  } 
+  #page {
+    float: right;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  #leftBlock, #rightBlock {
+    width: 100%;
+  }
+  .block {
+    float: left;
+    width: 27%;
+    margin-left: 15px;
+    min-height: 225px;
+  }
+  #nav {
+   margin-bottom: 20px;
+   position: absolute!important;
+    top: 0px;
+ }
+ #nav .blockFoot {
+  display: none;
+}
+#menu {
+  display: none;
+  border: 2px solid #f8ba00;
+  border-radius: 5px;
+  margin: 0px;
+  left: 0px;
+  padding: 15px 0px!important;
+}
+#nav .h3zagBlock {
+  width: 150px;
+  background: #f8ba00;
+}
+#nav:hover #menu {
+  display    : block;
+  padding-top: 5px;
+
+}
+#nav .blockFon {
+  position: absolute;
+  background:#f8f9c8;
+  width: 75%;
+}
+.menuInUl {
+  
+  z-index: 99999;
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  width: 80%;
+  border-radius: 7px;
+  border: 2px solid #71A405;
+  padding: 5px 10px 10px 15px;
+  background: #f9f8df;
+}

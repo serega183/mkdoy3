@@ -1,0 +1,544 @@
+* {
+  margin : 0px;
+  padding: 0px;
+}
+
+
+
+.table {
+  text-align: center;
+}
+
+.strok {
+  border    : 1px solid black;
+  margin-top: 2px;
+  padding   : 9px 0px;
+}
+
+.strokzag {
+  border     : 1px solid black;
+  margin-top : 2px;
+  padding    : 9px 0px;
+  font-weight: 700;
+}
+
+
+.colona {
+  float: left;
+  width: 33%;
+}
+
+
+html {
+  font-size: 12px;
+  cursor   : default;
+}
+
+a {
+  text-decoration: underline;
+  font-weight    : bold;
+  color          : darkred;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  display        : block;
+  height         : 2px;
+  background     : #ebd98e;
+  text-decoration: none;
+  border         : none;
+  box-sizing     : content-box;
+  margin: 7px 0px 7px 0px;
+}
+
+h1 {
+  text-transform : uppercase;
+  text-align     : center;
+  color          : #fee342;
+  padding        : 10px 10px 16px 10px;
+  border-radius  : 12px 12px 0px 0px;
+  font-size      : 1.5rem;
+  font-weight    : 700;
+  color          : #A42900;
+  background     : url("/images/disign/blockZag.jpg") no-repeat;
+  background-size: 100% 100%;
+
+  margin: -5px auto -10px;
+}
+
+h2,
+.h2 {
+  text-align: center;
+  color     : #4B901A;
+  margin    : 12px 0px 10px 0px;
+}
+
+h3 {
+  margin    : 12px 0px 10px 0px;
+}
+
+h4 {
+  padding: 0px;
+  margin : 0px
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+}
+
+ul {
+  padding-left: 9px;
+}
+
+/*-------------*/
+
+/* ------------ */
+body {
+  background-color           : #004681;
+  background                 : url('/images/disign/fon.jpg') no-repeat center center fixed;
+  -webkit-background-size    : cover;
+  -moz-background-size       : cover;
+  -o-background-size         : cover;
+  background-size            : cover;
+  margin                     : 0px auto;
+  /*! width                  : 100%; */
+  /*!max-width               : 1450px;*/
+  padding                    : 0px;
+  min-width                  : 1100px;
+  font-family                : Arial, Helvetica, Sans-Serif;
+}
+
+/*-------------*/
+#logo {
+  text-align: center;
+
+}
+
+#logo img {
+  /* width    : 58%;*/
+  max-width   : 100%;
+    margin      : 10px 0px -3px 0px;
+  padding     : 0px;
+}
+
+
+
+
+
+
+
+/* ----------------- */
+
+#content {
+  margin: 0px auto;
+  width : 80%;
+}
+
+/* ---------------- */
+#rightBlock {
+  width: 18%;
+  float: right;
+}
+
+.menuFrends {
+  margin     : 0px;
+  color      : red;
+  margin     : 0px 0px 0px 0px;
+  padding    : 0px 15px;
+  list-style : none;
+  line-height: 1.2rem;
+}
+
+.menuFrends li {
+  padding: 10px 0px 0px 0px;
+}
+
+.menuFrends a {
+  font-weight    : 500;
+  font-size      : 1.2rem;
+  text-decoration: none;
+  cursor         : pointer;
+}
+
+.menuFrends a:hover {
+  color          : #000;
+  text-decoration: underline;
+}
+
+
+/*-------------*/
+#page {
+  float : right;
+  margin: 0px 1% 0px 1%;
+  width : 60%;
+
+  padding: 5px 1% 15px 1%;
+
+
+}
+
+.pageArticle {
+  background   : #f8f9c8;
+  padding      : 15px 22px 15px 22px;
+  border-radius: 12px;
+  border       : 2px solid #71a405;
+  margin       : 0px 0px 12px 0px;
+
+}
+
+.imgpageArticle {
+  width: 80%; 
+  cursor: default; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+  text-align: center;
+}
+
+.slider>.imgInSlider {
+
+  width              : 24%;
+  cursor             : pointer;
+  border-radius      : 5px;
+  display            : inline-block;
+  background         : #fff;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-position: center 35%;
+}
+
+.slider .height100 {
+  height: 100px;
+}
+
+.slider .height200 {
+  height: 200px;
+}
+
+#page .date {
+  color     : grey;
+  text-align: right;
+
+}
+
+/*-------------*/
+#leftBlock {
+  float: left;
+  width: 18%;
+
+}
+
+
+
+
+
+/*-------------*/
+#footer {
+  /*! width : 100%; */
+  height    : 100px;
+
+}
+
+/* ---------- */
+
+
+
+
+.block {
+  margin-bottom: 25px;
+}
+
+.block>a {
+  text-decoration: none;
+}
+.block>a:hover {
+  text-decoration: underline;
+}
+
+
+.h3zagBlock {
+  text-align: center;
+  color              : #A42900;
+  background         : url("/images/disign/blockZag.jpg") no-repeat;
+  background-size    : 100% 100%;
+  padding            : 12px 0px 12px 0px;
+  border-radius      : 7px;
+  margin             : 0px 0px 0px 0px;
+  z-index            : 99999999;
+  font-size          : 1.25rem;
+  /*! float          : left; */
+  width              : 100%;
+
+}
+
+.blockFon {
+  background     : url("/images/disign/14.gif")repeat-y;
+  background-size: 100% 1px;
+  width          : 95%;
+  margin         : 0px auto;
+}
+
+.blockFoot {
+  width  : 95%;
+  display: block;
+  margin : 0 auto;
+}
+
+.imgInBlock {
+  width        : 80%;
+  display      : block;
+  margin       : 0 auto;
+  border-radius: 7px;
+}
+
+
+
+.menuMain,
+.menuMain ul {
+  margin     : 0px 0px -10px 0px;
+  padding    : 0px 25px 0px 0px;
+  list-style : none;
+  line-height: 1.2rem;
+}
+
+
+
+.menuMain>li {
+  position: relative;
+
+  margin: 0px 0px 4px 2px;
+}
+
+.menuMain a,
+.menuMain span {
+  font-weight        : 500;
+  color              : #344d01;
+  font-size          : 1.2rem;
+  text-decoration    : none;
+  /*! cursor         : pointer; */
+  display            : block;
+  width              : 90%;
+  padding            : 5px 0px 5px 15px;
+}
+
+.menuInUl {
+  display : none;
+  z-index : 99999;
+  position: absolute;
+  left    : 107%;
+  top     : -5px;
+  width   : 400px;
+
+  border-radius: 7px;
+  border       : 2px solid #71A405;
+  padding      : 5px 10px 10px 15px;
+  background   : #f9f8df;
+}
+
+.menuInUl>li {
+  list-style-type: none;
+  margin         : 3px 0 3px 0px;
+  line-height    : 100%;
+}
+
+.menuInUl>li>a {
+  padding: 5px 0px 5px 10px;
+}
+
+.hoverJs,
+.current {
+  background     : #c0d52b;
+  text-decoration: none;
+}
+
+.hoverJs>a,
+.current>a {
+  color: #A42900;
+  text-decoration: underline;
+}
+
+#menuMain .treugOne::after {
+  content    : '';
+  position   : absolute;
+  top        : 1px;
+  right      : -24px;
+  border     : 12px solid transparent;
+  border-left: 12px solid #71a405;
+}
+
+
+#menuMain .treugThre::after {
+  content    : '';
+  position   : absolute;
+  right      : -43px;
+  bottom     : 0px;
+  border     : 26px solid transparent;
+  border-left: 17px solid #71a405;
+}
+
+/* ------- */
+#popup,
+.popup {
+  position  : fixed;
+  height    : 100%;
+  width     : 100%;
+  top       : 0;
+  left      : 0;
+  text-align: center;
+}
+
+#popup_bg,
+.popup_bg {
+  background: rgba(0, 0, 0, 0.6);
+  position  : absolute;
+  z-index   : 1;
+  height    : 100%;
+  width     : 100%;
+}
+
+
+#popup_img,
+.popup_img {
+  border       : 10px solid white;
+  border-radius: 10px;
+  background   : #0F3653;
+  position     : relative;
+  margin       : 0 auto;
+  z-index      : 2;
+  max-width    : 90%;
+  max-height   : 90%;
+  cursor       : pointer;
+  margin       : 1% 0 0 0;
+}
+
+/*  */
+a.aDoc,
+a.aDoc:link,
+a.aDoc:visited,
+a.aDoc:active {
+  text-decoration: none;
+  display        : block;
+  padding        : 0px 0px 5px 20px;
+  margin    : 0px 0px 0px 0px;
+  color          : #cc4d24;
+  background     : url('/images/disign/doc-ico.png') no-repeat;
+  background-size: 12px 15px;
+  font-weight    : 700;
+}
+
+.aDoc:hover {
+  text-decoration: underline!important;
+    
+  }
+
+/*  */
+.autor {
+  font-style: italic;
+  text-align: right !important;
+
+}
+
+
+
+
+
+
+
+#contact-form .form-control {
+  border       : 2px solid #7d5aa6;
+  padding      : 3px 7px;
+  margin       : 5px 0px;
+  width        : 60%;
+  border-radius: 3px;
+}
+
+#contact-form .ajax-hidden {
+  text-align: center;
+}
+
+#contact-form .btn {
+  font-size    : 1rem;
+  padding      : 5px 10px;
+  border-radius: 7px;
+  border       : 2px solid white;
+  cursor       : pointer;
+  font-weight  : 700;
+  background   : #FEED01;
+  color        : #7d5aa6;
+  border       : 2px solid #7d5aa6;
+}
+
+#contact-form .btn:hover {
+  background: #7d5aa6;
+  color     : white;
+
+}
+
+.newsToClass {
+  text-align     : right;
+  border-bottom  : 1px solid #db5c00;
+  display        : block;
+  color          : #000;
+  text-decoration: none;
+}
+
+.newsToClass span {
+  text-transform: uppercase;
+  color         : #db5c00;
+}
+
+.teacher img {
+  width        : 200px;
+  border-radius: 15px;
+  float        : right;
+  margin-right : 15px;
+  margin-left  : 15px;
+  transform    : scale(-1, 1);
+}
+
+.scroll-up a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius   : 3px;
+  -o-border-radius     : 3px;
+  border-radius        : 3px;
+}
+
+.scroll-up {
+  position: fixed;
+  /*! display : none; */
+  z-index : 999;
+  bottom  : 2em;
+  right   : 2em;
+}
+
+.scroll-up a {
+  background-color: rgba(135, 135, 135, 0.5);
+  display         : block;
+  width           : 35px;
+  height          : 35px;
+  text-align      : center;
+  color           : #fff;
+  font-size       : 15px;
+  line-height     : 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+  background-color: rgba(235, 235, 235, .8);
+  color           : #e7746f;
+}
